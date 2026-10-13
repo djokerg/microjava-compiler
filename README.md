@@ -1,6 +1,6 @@
 # MJCompiler: a MicroJava compiler
 
-[![CI](https://github.com/djokerg/pp1domaci/actions/workflows/ci.yml/badge.svg)](https://github.com/djokerg/pp1domaci/actions/workflows/ci.yml)
+[![CI](https://github.com/djokerg/microjava-compiler/actions/workflows/ci.yml/badge.svg)](https://github.com/djokerg/microjava-compiler/actions/workflows/ci.yml)
 
 A complete compiler for **MicroJava**, a small Java-like teaching language. It turns `.mj` source
 into bytecode for the MicroJava virtual machine through four stages: a JFlex lexer, a CUP LALR(1)
@@ -27,7 +27,7 @@ mjc: running on the MicroJava VM
 You only need **Docker**. The first run builds the toolchain image (JDK 8 + Ant), which takes about a minute.
 
 ```bash
-git clone https://github.com/djokerg/pp1domaci.git && cd pp1domaci
+git clone https://github.com/djokerg/microjava-compiler.git && cd microjava-compiler
 
 ./run.sh                      # compile + run the main demo (tests/test302.mj)
 ./run.sh 301                  # another demo: 301, 302 or program
